@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #e6faef;
+    color:  #000000;
+    padding: 0 30px; 
+}
+
+.cabecalho {
+    text-align: center;
+    background-color: #00A86B ;
+    padding: 10px;
+    color: white;
+    height: 118px;
+}
+.boas-vindas{
+    color:  #00884F;
+    text-align: center;
+}
+.rodape{
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: left; 
+    gap: 30px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255)
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(220, 100, 14);
+}
+
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #00A86B;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+p{
+    color: #2f3e46;
+}
+
