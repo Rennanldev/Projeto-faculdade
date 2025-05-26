@@ -20,11 +20,21 @@ body {
     height: 118px;
 }
 .boas-vindas{
+    text-align: center;
+}
+.parques-em-destaque{
     color:  #00884F;
     text-align: center;
 }
 .rodape{
     color: white;
+    text-align: center;
+}
+footer {
+    background-color: #00A86B;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
 }
 nav ul {
     display: flex;
@@ -51,13 +61,7 @@ nav ul li a:hover {
 main {
     padding: 20px;
 }
-footer {
-    background-color: #00A86B;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-}
 p{
     color: #2f3e46;
+    text-align: left;
 }
-
