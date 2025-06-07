@@ -19,7 +19,7 @@ body {
     color: white;
     height: 118px;
 }
-.boas-vindas{
+.Bem-vindo{
     text-align: center;
 }
 .parques-em-destaque{
@@ -36,6 +36,7 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+
 nav ul {
     display: flex;
     justify-content: left; 
