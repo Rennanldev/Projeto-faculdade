@@ -21,6 +21,7 @@ body {
 }
 .Bem-vindo{
     text-align: center;
+    color: #00884F;
 }
 .parques-em-destaque{
     color:  #00884F;
@@ -37,7 +38,7 @@ footer {
     text-align: center;
 }
 
-nav ul {
+nav > ul {
     display: flex;
     justify-content: left; 
     gap: 30px;
@@ -48,7 +49,7 @@ nav ul {
 nav a {
     text-decoration: none;
     font-weight: bold;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
 }
 
 nav ul li {
@@ -56,7 +57,8 @@ nav ul li {
 }
 
 nav ul li a:hover {
-    color: rgb(220, 100, 14);
+    color: rgb(241, 237, 237);
+    text-decoration: underline;
 }
 
 main {
