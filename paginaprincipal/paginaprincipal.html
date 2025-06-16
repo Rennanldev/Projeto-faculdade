@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuito Terê Verde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="logo.png" alt="logocircuito" id="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Parques</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--cabecalho do bem vindo-->
+        <section>
+            <h2 class="Bem-vindo">Bem-vindo ao Circuito Terê Verde</h2>
+            <p class="pbemvindo">
+                Explore as belezas naturais de Teresópolis através dos seus parques e trilhas incríveis.
+                Descubra a biodiversidade e os eventos especiais que ocorrem na nossa região.
+            </p>
+        </section>
+        <!--imagens do carrossel com texto-->
+        <section class="carrossel-ss">
+            <div class="carrossel">
+                <img id="carrossel-imagem" src="" alt="Imagem do Carrossel">
+                <div id="image-caption" class="image-caption"></div>
+                <button id="voltar-botao" class="carrossel-botao voltar-botao">&#10094;</button>
+                <button id="proximo-botao" class="carrossel-botao proximo-botao">&#10095;</button>
+            </div>
+        </section>
+
+        <!--destaque dos parques-->
+        <section>
+            <h2 id="parques-em-destaque">Parques em destaque</h2>
+        </section>
+        <!--sessao dos parques em destaque-->
+        <section class="card-container">
+            <article class="card-item">
+                <div class="card-img">
+                    <img src="Fotos-do-parque/parque-serra-dos-orgaos.jpg" alt="Parque Nacional da Serra dos Órgãos">
+                </div>
+                <h3>Parque Nacional da Serra dos Órgãos</h3>
+                <p>Famoso pelas trilhas desafiadoras e paisagens incríveis.</p>
+            </article>
+
+            <article class="card-item">
+                <div class="card-img">
+                    <img src="Fotos-do-parque/parque-tres-picos.jpg" alt="Parque Estadual dos Três Picos">
+                </div>
+                <h3>Parque Estadual dos Três Picos</h3>
+                <p>Ideal para montanhismo e apreciar a rica biodiversidade.</p>
+            </article>
+
+            <article class="card-item">
+                <div class="card-img">
+                    <img src="Fotos-do-parque/parque-montanha.jpg" alt="Parque Natural Municipal Montanhas de Teresópolis">
+                </div>
+                <h3>Parque Natural Municipal Montanhas de Teresópolis</h3>
+                <p>Perfeito para trilhas leves e contato com a natureza.</p>
+            </article>
+        </section>
+    </main>
+    <!--Rodapé-->
+    <footer>
+        <p class="rodape">&copy; 2025 Circuito Terê Verde. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
