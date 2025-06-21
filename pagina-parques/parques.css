@@ -23,6 +23,22 @@ body {
     height: 130px;
     width: 100%;
 }
+/*Aqui começa o rodape */
+footer {
+    background-color: #597357;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+.rodape {
+    color: white;
+    text-align: center;
+}
+/*aqui termina o rodape */
+
 /* aqui é o submenu escondido */
 .submenu {
   position: relative;
@@ -84,6 +100,7 @@ nav a:hover {
 }
 /* Aqui termina a area de navegação*/
 
+/*Aqui começa o bem vindo*/
 .Bem-vindo {
     color: #597357;
     text-align: center;
@@ -94,10 +111,11 @@ nav a:hover {
     font-size: 20px;
     line-height: 1.6;
 }
+/*Aqui começa o card das atrações */
 .card-atracoes {
   display: flex;
   justify-content: center;
-  gap: 150px;
+  gap: 20px;
   margin: 40px 0;
   padding: 0 30px;
   flex-wrap: wrap; 
@@ -123,6 +141,9 @@ nav a:hover {
   padding: 10px;
   font-weight: bold;
 }
+/*Aqui termina o card das atrações */
+
+/*Aqui começa o card da biodiversidade */
 .secao-bio {
   display: flex;
   justify-content: center;
@@ -148,6 +169,48 @@ nav a:hover {
 .card-biodiversidade p{
   font-size: 20px;
   font-weight: bold;
+}
+/*Aqui termina o card da biodiversidade */ 
+.Titulo{
+  text-align: center;
+  font-size: 26px;
+  color: #4e6c50;
+}
+.linha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 40px 0;
+}
+.linha span {
+  flex: 1;
+  height: 2px;
+  background-color: #4e6c50;
+}
+.Titulo img{
+  height: 400px;
+  width: 1000px
+}
+.eventos{
+  font-size: 20px;
+  color: rgb(105, 175, 207);
+  text-align: center;
+}
+.eventos p{
+  font-size: 18px;
+  color: black;
+}
+#como-chegar{
+  color: white;
+  background-color: #597357;
+  text-align: center;
+}
+.mapa-responsivo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
 
 
